@@ -1404,6 +1404,9 @@ div.timeListWrap{
   #video{
     max-width: 490px;
   }
+  #bestSeller span.remon{
+    display: none;
+  }
 
 }/*490*/
 
