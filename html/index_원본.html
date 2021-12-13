@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>달다구리</title>
+  <link href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css" rel="stylesheet">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  <!--jQuery 소스삽입  cdnjs 플러그인 사용 -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <!--jQuery-ui 소스삽입 (aniamtion 기능, 다양한 ui component)  cdnjs 플러그인 사용 -->
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="video">
+      <video src="img/farm.mp4" alt="화성시 달다구리와 함께하는 농업인들의 영상입니다." autoplay muted loop width="100%"></video>
+    </div>
+    <div id="mainWrap">
+      <header class="headerWrap clearfix">
+        <h1>
+          <a href="index.html" title="달다구리 로고">로고</a>
+        </h1>
+        <!-- pc형 gnb -->
+        <nav class="gnb">
+          <ul class="mainMenu">
+            <li>
+              <a href="#" title="기업소개">기업소개</a>      
+              <ul class="subMenu">
+                <li><a href="#" title="달다구리 소개">달다구리소개</a></li>
+                <li><a href="#" title="배송안내">배송안내</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" title="베스트상품">베스트상품</a>
+            </li>
+            <li>
+              <a href="#" title="타임세일">타임세일</a>
+            </li>
+            <li>
+              <a href="#" title="제철상품">제철상품</a>
+            </li>
+            <li>
+              <a href="#" title="전체상품">전체상품</a>              
+              <ul class="subMenu">
+                <li><a href="#" title="콩,곡식">콩&#183;곡식</a></li>
+                <li><a href="#" title="콩,곡식">채소</a></li>
+                <li><a href="#" title="과일">과일</a></li>
+              </ul>             
+            </li>
+            <li>
+              <a href="#" title="레시피">레시피</a>
+              <ul class="subMenu">
+                <li><a href="#" title="유아식">유아식</a></li>
+                <li><a href="#" title="국, 찌개">국&#183;찌개</a></li>
+                <li><a href="#" title="밑반찬">밑반찬</a></li>
+              </ul>        
+            </li>
+          </ul><!--mainMenu-->
+        </nav> <!--pc형 gnb-->
+        <!-- pc형 loginWrap -->
+        <div class="loginWrap">
+          <ul class="clearfix">
+            <li>
+              <a href="#" title="로그인">로그인</a>
+            </li>
+            <li>
+              <a href="#" title="장바구니">장바구니</a>
+            </li>
+            <li>
+              <a href="#" title="검색">검색</a>
+            </li>
+          </ul>
+        </div><!--pc형 loginWrap-->
+
+        <!-- mobile형 mobileWrap -->
+        <div class="mobileWrap">
+          <nav class="mobileGnb">
+            <ul class="mMainMenu">
+              <li>
+                <a href="#" title="기업소개">기업소개</a>      
+                <ul class="mSubMenu">
+                  <li><a href="#" title="달다구리 소개">&#45; 달다구리소개</a></li>
+                  <li><a href="#" title="배송안내">&#45; 배송안내</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" title="베스트상품">베스트상품</a>
+              </li>
+              <li>
+                <a href="#" title="타임세일">타임세일</a>
+              </li>
+              <li>
+                <a href="#" title="제철상품">제철상품</a>
+              </li>
+              <li>
+                <a href="#" title="전체상품">전체상품</a>              
+                <ul class="mSubMenu">
+                  <li><a href="#" title="콩,곡식">&#45; 콩&#183;곡식</a></li>
+                  <li><a href="#" title="콩,곡식">&#45; 채소</a></li>
+                  <li><a href="#" title="과일">&#45; 과일</a></li>
+                </ul>             
+              </li>
+              <li>
+                <a href="#" title="레시피">레시피</a>
+                <ul class="mSubMenu">
+                  <li><a href="#" title="유아식">&#45; 유아식</a></li>
+                  <li><a href="#" title="국, 찌개">&#45; 국&#183;찌개</a></li>
+                  <li><a href="#" title="밑반찬">&#45; 밑반찬</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav><!--mobileGnb-->
+          <!-- mobile형 loginWrap -->
+          <div class="mobileLoginWrap">
+            <ul class="clearfix">
+              <li>
+                <a href="#" title="로그인">로그인</a>
+              </li>
+              <li>
+                <a href="#" title="장바구니">장바구니</a>
+              </li>
+              <li>
+                <a href="#" title="검색">검색</a>
+              </li>
+            </ul>
+          </div><!--mobile형 loginWrap-->
+        </div><!--mobileWrap-->
+        <div class="mobileBtn">
+          <a href="#" title="모바일메뉴버튼">
+            <span class="line01"></span>
+            <span class="line02"></span>
+            <span class="line03"></span>
+          </a>
+        </div>
+
+      </header>
+
+      <div id="mainBanner">
+        <span class="pumpkin">
+          <span class="pumpkin_1">단호박이미지1</span>
+          <span class="pumpkin_2">단호박이미지2</span>
+        </span>
+        <span class="cherry clearfix">
+          <span class="cherry_1">체리1 이미지</span>
+          <span class="cherry_2">체리2 이미지</span>
+        </span>
+      </div>
+
+      <div id="bestSeller">
+        <div class="width1200">
+         <h2>베스트상품</h2>
+         <ul class="clearfix">
+           <li>
+             <a href="#" title="꿀사과 썸네일">
+              <div class="bestSeller_thumnail thum1"></div>
+             </a>
+              <a href="#" title="꿀사과 텍스트">
+                <p>아삭아삭한 꿀사과 5kg<br>
+                      <span class="color">14&#37;</span>
+                      <span class="size">35,900원</span>
+                </p>
+              </a>
+           </li>
+           <li>
+            <a href="#" title="블루베리 썸네일">
+             <div class="bestSeller_thumnail thum2"></div>
+            </a>
+            <a href="#" title="블루베리 텍스트">
+                <p>톡톡 터지는 생 블루베리 1kg<br>
+                     <span class="color">30&#37;</span>
+                     <span class="size">17,900원</span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="작두콩 썸네일">
+             <div class="bestSeller_thumnail thum3"></div>
+           </a>
+           <a href="#" title="작두콩 텍스트">
+              <p>유기농 생 작두콩 10kg<br>
+                    <span class="size">33,000원</span>
+             </p>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <span class="paprika">
+          <span class="bg1_1">파프리카red 이미지</span>
+          <span class="bg1_2">파프리카yellow 이미지</span>
+          <span class="bg1_3">파프리카green 이미지</span>
+        </span>
+        <span class="remon">
+          <span class="bg2_1">레몬1 이미지</span>
+          <span class="bg2_2">레몬2 이미지</span>
+          <span class="bg2_3">레몬3 이미지</span>
+        </span>
+        <span class="pomegranate">
+          <span class="bg3_1">석류1 이미지</span>
+          <span class="bg3_2">석류2 이미지</span>
+          <span class="bg3_3">석류3 이미지</span>
+        </span>
+      </div>
+
+      <div id="seasonProduct">
+        <div class="width1200">
+          <div class="titleSummary">
+            <h2>제철상품</h2>
+            <p>&#45; 달다구리의 신선함과 상큼함을 만끽해보세요!</p>
+          </div>
+          <div class="seasonInner">
+            <ul class="seasonProduct_list clearfix">
+              <li class="clearfix"><!-- 첫번째-->
+                <ul class="seasonList s1">
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          상큼한 완숙 찰토마토 5kg<br>
+                          <span class="color">30&#37;</span>
+                          <span class="size">14,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          달콤한 찰옥수수 10개<br>
+                          <!-- <span class="color">30&#37;</span> -->
+                          <span class="size">10,700원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          향긋한 청매실 10kg<br>
+                          <!-- <span class="color">15&#37;</span> -->
+                          <span class="size">35,600원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          톡톡 터지는 씨없는 포도 4kg<br>
+                          <span class="color">13&#37;</span>
+                          <span class="size">16,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="thum_big b1">
+                  <a href="#">
+                    <div class="season_text">
+                      <p>
+                        부드럽고 향긋한 무화과 1.2kg<br>
+                        <span class="color">15&#37;</span>
+                        <span class="size">12,990원</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="clearfix"><!-- 두번째-->
+                <ul class="seasonList s2">
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          화성 흙생강 10kg<br>
+                          <!-- <span class="color">50&#37;</span> -->
+                          <span class="size">39,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          고당도 못난이 참외 5kg<br>
+                          <span class="color">30&#37;</span>
+                          <span class="size">52,000원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          씹을수록 달달한 백미 10kg<br>
+                          <span class="color">20&#37;</span>
+                          <span class="size">35,600원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          손질한 대파 5단 (10kg내외)<br>
+                          <!-- <span class="color">13&#37;</span> -->
+                          <span class="size">11,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="thum_big b2">
+                  <a href="#">
+                    <div class="season_text">
+                      <p>
+                        괴즙 넘치는 하우스 생딸기 300g 2상자<br>
+                        <!-- <span class="color">13&#37;</span> -->
+                        <span class="size">25,990원</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="clearfix"><!-- 세번째-->
+                <ul class="seasonList s3">
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          향긋한 향토 노지 냉이 1kg<br>
+                          <span class="color">13&#37;</span>
+                          <span class="size">16,800원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          친환경 무농약 표고버섯 1kg<br>
+                          <!-- <span class="color">32&#37;</span> -->
+                          <span class="size">15,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          유기농 흙당근 5kg<br>
+                          <!-- <span class="color">15&#37;</span> -->
+                          <span class="size">15,800원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="season_text">
+                        <p>
+                          국내산 햇 깐 완두콩 500g<br>
+                          <span class="color">8&#37;</span>
+                          <span class="size">13,900원</span>
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="thum_big b3">
+                  <a href="#">
+                    <div class="season_text">
+                      <p>
+                        새벽이슬 맞은 통배추 3통 (10kg내외)<br>
+                        <!-- <span class="color">15&#37;</span> -->
+                        <span class="size">19,800원</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>       
+          </div>
+          <div class="movePage">
+            <a href="#">지금 바로 만나보기&nbsp;&nbsp;&nbsp;&nbsp;&#62;</a>
+          </div>
+          <span class="prevBtn"><a href="#">prevBtn</a></span>
+          <span class="nextBtn"><a href="#">nextBtn</a></span>
+        </div>
+      </div>
+
+      <div id="timeSale">
+        <div class="width1200 clearfix">
+          <div class="tTitle">
+            <h2>타임세일</h2>
+            <p>오늘 단 하루만 만날 수 있는 가격</p>
+            <p class="count">88 : 88 : 88</p>
+          </div>
+          <div class="timeListWrap">
+          <div class="ulInner">
+            <ul class="tThum clearfix">
+              <li class="tThum01">timeSale_thumnail_1</li>
+              <li class="tThum02">timeSale_thumnail_2</li>
+              <li class="tThum03">timeSale_thumnail_3</li>
+              <li class="tThum04">timeSale_thumnail_4</li>
+            </ul>
+          </div>
+          <span class="discount">70%</span>
+          <a href="#" class="timeSale_moreBtn">
+            <span>한정수량<br>보러가기</span>
+          </a>
+        </div>
+          
+        </div>
+      </div>
+
+      <div id="recipe">
+        <a href="#" title="레시피 페이지로 이동">레시페 페이지 배너</a>
+      </div>
+
+      <div id="review">
+        <div class="width1200">
+          <h2>후기</h2>
+        </div>
+        <div class="review_inner">
+          <ul class="review_list clearfix">
+            <li>후기1</li>
+            <li>후기2</li>
+            <li>후기3</li>
+            <li>후기4</li>
+            <li>후기5</li>
+            <li>후기6</li>
+            <li>후기7</li>
+            <li>후기8</li>
+            <li>후기9</li>
+            <li>후기10</li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footerWrap">
+        <h2>달다구리 로고</h2>
+        <ul class="clearfix">
+          <li>
+            <a href="#" title="이용약관">이용약관</a>
+          </li>
+          <li>
+            <a href="#" title="개인정보처리방침">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#" title="배송문의">배송문의</a>
+          </li>
+          <li>
+            <a href="#" title="제휴문의">제휴문의</a>
+          </li>
+        </ul>
+        <p>
+          TEL : 010-123-4567   |   주소 : 경기도 화성시 장안면 사랑리 67-1<br>
+E-MAIL : oo5004@naver.com   |   사업자등록번호 : 123-45-67890   |   통신판매업신고번호 : 제2021-화성장안<br>
+copyⓒ2021 daldagooli.all right reserved.
+        </p>
+        <span class="abocado">아보카도 이미지</span>
+      </footer>
+      
+
+  
+
+
+    </div><!--mainWrap-->    
+  </div> <!--wrap-->
+</body>
+</html>
