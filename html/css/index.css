@@ -1415,6 +1415,9 @@ div.timeListWrap{
 
 /* 490 */
 @media  screen and (max-width:490px) {
+  div.mobileWrap{
+    width: 250px;
+  }
   div.thum_big{
     display: none;
   }
